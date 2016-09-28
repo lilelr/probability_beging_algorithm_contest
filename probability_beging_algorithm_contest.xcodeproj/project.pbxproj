@@ -11,6 +11,7 @@
 		DEEAC5D81D9649F7009481C8 /* yang_hui_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC5D71D9649F7009481C8 /* yang_hui_triangle.cpp */; };
 		DEFA553F1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA553E1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp */; };
 		DEFA55411D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55401D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp */; };
+		DEFA55431D9C10DD004D7BE3 /* Critical Mass Uva580.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		DEEAC5DA1D964A32009481C8 /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
 		DEFA553E1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva10820 send a Table.cpp"; sourceTree = "<group>"; };
 		DEFA55401D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "HeadShot Uva 1636.cpp"; sourceTree = "<group>"; };
+		DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Critical Mass Uva580.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				DEEAC5DA1D964A32009481C8 /* out */,
 				DEFA553E1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp */,
 				DEFA55401D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp */,
+				DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */,
 			);
 			path = probability_beging_algorithm_contest;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				DEFA553F1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp in Sources */,
 				DEFA55411D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp in Sources */,
 				DEEAC5D81D9649F7009481C8 /* yang_hui_triangle.cpp in Sources */,
+				DEFA55431D9C10DD004D7BE3 /* Critical Mass Uva580.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
