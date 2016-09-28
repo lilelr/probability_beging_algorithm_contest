@@ -14,6 +14,7 @@
 		DEFA55431D9C10DD004D7BE3 /* Critical Mass Uva580.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */; };
 		DEFA55451D9C1587004D7BE3 /* Uva12304 Race.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55441D9C1587004D7BE3 /* Uva12304 Race.cpp */; };
 		DEFA55471D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55461D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp */; };
+		DEFA55491D9C1A03004D7BE3 /* Uva12230 Crossing Rivers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55481D9C1A03004D7BE3 /* Uva12230 Crossing Rivers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Critical Mass Uva580.cpp"; sourceTree = "<group>"; };
 		DEFA55441D9C1587004D7BE3 /* Uva12304 Race.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva12304 Race.cpp"; sourceTree = "<group>"; };
 		DEFA55461D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva 1638 Pole Arrangement.cpp"; sourceTree = "<group>"; };
+		DEFA55481D9C1A03004D7BE3 /* Uva12230 Crossing Rivers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva12230 Crossing Rivers.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */,
 				DEFA55441D9C1587004D7BE3 /* Uva12304 Race.cpp */,
 				DEFA55461D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp */,
+				DEFA55481D9C1A03004D7BE3 /* Uva12230 Crossing Rivers.cpp */,
 			);
 			path = probability_beging_algorithm_contest;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				DEFA553F1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp in Sources */,
 				DEFA55411D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp in Sources */,
 				DEFA55451D9C1587004D7BE3 /* Uva12304 Race.cpp in Sources */,
+				DEFA55491D9C1A03004D7BE3 /* Uva12230 Crossing Rivers.cpp in Sources */,
 				DEEAC5D81D9649F7009481C8 /* yang_hui_triangle.cpp in Sources */,
 				DEFA55431D9C10DD004D7BE3 /* Critical Mass Uva580.cpp in Sources */,
 				DEFA55471D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp in Sources */,
