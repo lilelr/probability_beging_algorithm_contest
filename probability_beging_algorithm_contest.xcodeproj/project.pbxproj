@@ -13,6 +13,7 @@
 		DEFA55411D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55401D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp */; };
 		DEFA55431D9C10DD004D7BE3 /* Critical Mass Uva580.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */; };
 		DEFA55451D9C1587004D7BE3 /* Uva12304 Race.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55441D9C1587004D7BE3 /* Uva12304 Race.cpp */; };
+		DEFA55471D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA55461D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		DEFA55401D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "HeadShot Uva 1636.cpp"; sourceTree = "<group>"; };
 		DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Critical Mass Uva580.cpp"; sourceTree = "<group>"; };
 		DEFA55441D9C1587004D7BE3 /* Uva12304 Race.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva12304 Race.cpp"; sourceTree = "<group>"; };
+		DEFA55461D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva 1638 Pole Arrangement.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				DEFA55401D9C0F74004D7BE3 /* HeadShot Uva 1636.cpp */,
 				DEFA55421D9C10DD004D7BE3 /* Critical Mass Uva580.cpp */,
 				DEFA55441D9C1587004D7BE3 /* Uva12304 Race.cpp */,
+				DEFA55461D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp */,
 			);
 			path = probability_beging_algorithm_contest;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				DEFA55451D9C1587004D7BE3 /* Uva12304 Race.cpp in Sources */,
 				DEEAC5D81D9649F7009481C8 /* yang_hui_triangle.cpp in Sources */,
 				DEFA55431D9C10DD004D7BE3 /* Critical Mass Uva580.cpp in Sources */,
+				DEFA55471D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
