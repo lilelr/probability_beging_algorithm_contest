@@ -1,5 +1,5 @@
 
-//条件概率
+//用递推法 计算排列组合
 #include <algorithm>
 #include <cmath>
 #include <cstdio>
