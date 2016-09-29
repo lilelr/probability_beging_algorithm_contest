@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DE5650601D9CB48700B95245 /* Candy Uva1639.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE56505F1D9CB48700B95245 /* Candy Uva1639.cpp */; };
+		DE5650621D9CB5D400B95245 /* Coupons Uva10288.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE5650611D9CB5D400B95245 /* Coupons Uva10288.cpp */; };
+		DE5650641D9CB97D00B95245 /* Uva11346 Probability.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE5650631D9CB97D00B95245 /* Uva11346 Probability.cpp */; };
 		DEEAC5D11D964733009481C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC5D01D964733009481C8 /* main.cpp */; };
 		DEEAC5D81D9649F7009481C8 /* yang_hui_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC5D71D9649F7009481C8 /* yang_hui_triangle.cpp */; };
 		DEFA553F1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEFA553E1D9C0B0C004D7BE3 /* Uva10820 send a Table.cpp */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		DE56505F1D9CB48700B95245 /* Candy Uva1639.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Candy Uva1639.cpp"; sourceTree = "<group>"; };
+		DE5650611D9CB5D400B95245 /* Coupons Uva10288.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Coupons Uva10288.cpp"; sourceTree = "<group>"; };
+		DE5650631D9CB97D00B95245 /* Uva11346 Probability.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva11346 Probability.cpp"; sourceTree = "<group>"; };
 		DEEAC5CD1D964733009481C8 /* probability_beging_algorithm_contest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = probability_beging_algorithm_contest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEAC5D01D964733009481C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DEEAC5D71D9649F7009481C8 /* yang_hui_triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yang_hui_triangle.cpp; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				DEFA55461D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp */,
 				DEFA55481D9C1A03004D7BE3 /* Uva12230 Crossing Rivers.cpp */,
 				DE56505F1D9CB48700B95245 /* Candy Uva1639.cpp */,
+				DE5650611D9CB5D400B95245 /* Coupons Uva10288.cpp */,
+				DE5650631D9CB97D00B95245 /* Uva11346 Probability.cpp */,
 			);
 			path = probability_beging_algorithm_contest;
 			sourceTree = "<group>";
@@ -152,9 +158,11 @@
 				DEFA55451D9C1587004D7BE3 /* Uva12304 Race.cpp in Sources */,
 				DEFA55491D9C1A03004D7BE3 /* Uva12230 Crossing Rivers.cpp in Sources */,
 				DEEAC5D81D9649F7009481C8 /* yang_hui_triangle.cpp in Sources */,
+				DE5650641D9CB97D00B95245 /* Uva11346 Probability.cpp in Sources */,
 				DEFA55431D9C10DD004D7BE3 /* Critical Mass Uva580.cpp in Sources */,
 				DE5650601D9CB48700B95245 /* Candy Uva1639.cpp in Sources */,
 				DEFA55471D9C1862004D7BE3 /* Uva 1638 Pole Arrangement.cpp in Sources */,
+				DE5650621D9CB5D400B95245 /* Coupons Uva10288.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
