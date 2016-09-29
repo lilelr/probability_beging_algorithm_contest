@@ -1,31 +1,42 @@
-// Uva12230过河问题  均匀分布 的数学期望求解
-#include <algorithm>
+// UVa1639/LA6163 Candy
+// Rujia Liu
 #include <cmath>
 #include <cstdio>
-#include <cstdlib>
-#include <cstring>
 #include <iostream>
-#include <map>
-#include <queue>
-#include <set>
-#include <string>
-#include <vector>
 using namespace std;
-#define LL long long
+// C(n,m) = n!/(m!(n-m)!)
+const int maxn = 20 + 5;
+long double logF[maxn * 2 + 1];
+
+long double logC(int n, int m) { return logF[n] - logF[m] - logF[n - m]; }
+
+double solve(int n, double p) {
+  double ans = 0;
+  for (int i = 0; i <= n; i++) {
+    long double c = logC(n * 2 - i, n);
+    long double v1 = c + (n + 1) * log(p) + (n - i) * log(1 - p);
+    long double v2 = c + (n + 1) * log(1 - p) + (n - i) * log(p);
+    long double x = exp(v1) + exp(v2);
+    ans += i * (exp(v1) + exp(v2));
+  }
+  return ans;
+}
 
 int main() {
-  freopen("", "r", stdin);
-  freopen("", "w", stdout);
+  logF[0] = 0;
+  // log以e为底数,即ln， logF[1] = log(1)=0， logF[2] = logF[1] + log(2) =
+  // log(1)+log(2) = log(1*2)
+  // logF[3] = logF[2] + log(3) = log(1*2*3)
+  for (int i = 1; i <= maxn; i++)
+    logF[i] = logF[i - 1] + log(i);
 
-  int n, D, p, L, v, kase = 0;
-  while (scanf("%d%d", &n, &D) == 2 && D) {
-    double ans = 0;
-    while (n--) {
-      scanf("%d%d%d", &p, &L, &v);
-      D -= L;
-      ans += 2.0 * L / v;
-    }
-    printf("Case %d: %.3lf\n\n", ++kase, ans + D);
+  for (int i = 0; i <= maxn; i++) {
+    cout << logF[i] << endl;
   }
+
+  int kase = 0, n;
+  double p;
+  while (scanf("%d%lf", &n, &p) == 2)
+    printf("Case %d: %.6lf\n", ++kase, solve(n, p));
   return 0;
 }
