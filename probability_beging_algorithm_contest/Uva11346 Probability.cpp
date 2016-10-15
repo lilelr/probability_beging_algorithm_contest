@@ -1,4 +1,5 @@
 //// 数形结合求概率 双曲线
+//// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=850&page=show_problem&problem=2321
 //// UVa11346 Probability
 //// Rujia Liu
 //#include <cmath>
